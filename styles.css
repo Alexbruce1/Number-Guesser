@@ -1,0 +1,182 @@
+body {
+  font-family: open sans;
+  margin: inherit;
+}
+
+nav {
+  background-color: #404041;
+  font-size: 5rem;
+  height: 175px;
+  text-align: center;
+  width: 100%;
+  vertical-align: top;
+}
+
+article {
+  margin: auto;
+  text-align: center;
+  width: 800px;
+}
+
+.nav-title {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.nav-number {
+  color: #ED458B;
+  font-weight: 700;
+}
+
+.nav-guesser {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 750px;
+}
+
+input {
+  outline: none;
+}
+
+.number-input {
+  border: 1px solid #D0D2D3;
+  border-radius: 5px;
+  color: #404041;
+  font-size: 2rem;
+  height: 4rem;
+  margin: 4rem 0 4rem 0;
+  text-indent: 20px;
+  width: 100%;
+}
+
+.number-input::-webkit-inner-spin-button, 
+.number-input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.number-input:focus {
+  background-color: #fdecf3;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+}
+
+.number-input::placeholder {
+  color: #D0D2D3;
+  font-weight: 300;
+  text-indent: 20px;
+  font-size: 2rem;
+}
+
+.form-article {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 750px;
+}
+
+.page-button {
+  background-color: #929497;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 2rem;
+  height: 4rem;
+}
+
+.page-button:hover {
+  background-color: #ED458B;
+  transition-duration: .3s;
+}
+
+.page-button:disabled {
+  background-color: #d0d2d3;
+  cursor: not-allowed;
+}
+
+.form-guess,
+.form-clear {
+  margin-bottom: 3rem;
+  width: 45%;
+}
+
+h3 {
+  color: #404041;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h2 {
+  color: #ED458B;
+  font-size: 15rem;
+  font-weight: 300;
+  line-height: 14rem;
+  margin: 0;
+}
+
+.reset-button {
+  margin: 2rem 0;
+  width: 750px;
+}
+
+.custom-limits {
+  background-color: #404041;
+  border-radius: 2rem;
+  visibility: hidden;
+  height: 300px;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.custom-limits-header {
+  color: #ED458B;
+  display: inline;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+.new-limits {
+  margin: 2rem 1rem;
+  width: 40%;
+}
+
+.new-limits:focus {
+  background-color: #fbd9e7;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+}
+
+.number-input:focus::-webkit-input-placeholder {
+  color: #88898a;
+  transition-duration: 1.25s;
+  transition-timing-function: ease-in;
+}
+
+.custom-limits-show {
+  visibility: visible; 
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Number Guesser</title>
+</head>
+<body>
+<nav>
+  <article>
+    <h1 class="nav-title nav-number">Number</h1>
+    <h1 class="nav-title nav-guesser">Guesser</h1>
+  </article>
+</nav>
+<main>
+<form>
+  <input class="number-input guess-input" type="number" name="number" placeholder="Enter your guess">
+  <article class="form-article">
+    <input class="form-guess page-button" disabled="true" type="submit" name="guess" value="Guess">
+    <input class="form-clear page-button" disabled="true" type="button" name="clear" value="Clear">
+  </article class="form-article">
+</form>
+<h3 class="last-guess-was"></h3>
+<h2 class="display-guess"></h2>
+<h3 class="guess-hint"></h3>
+<input class="reset-button page-button" disabled="true" type="button" name="reset" value="Reset">
+
+<section class="custom-limits">
+  <h3 class="custom-limits-header">Custom Min and Max</h3>
+  <input type="number" class="number-input new-limits new-min" name="new min" placeholder=" New Min">
+  <input type="number" class="number-input new-limits new-max" name="new max" placeholder=" New Max">
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
