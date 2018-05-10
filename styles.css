@@ -8,8 +8,8 @@ nav {
   font-size: 5rem;
   height: 175px;
   text-align: center;
-  width: 100%;
   vertical-align: top;
+  width: 100%;
 }
 
 article {
@@ -44,8 +44,8 @@ input {
 }
 
 .number-input {
-  border: 1px solid #D0D2D3;
   border-radius: 5px;
+  border: 1px solid #D0D2D3;
   color: #404041;
   font-size: 2rem;
   height: 4rem;
@@ -132,9 +132,9 @@ h2 {
 .custom-limits {
   background-color: #404041;
   border-radius: 2rem;
-  visibility: hidden;
   height: 300px;
   margin-top: 1rem;
+  visibility: hidden;
   width: 100%;
 }
 
@@ -163,8 +163,8 @@ h2 {
 }
 
 .custom-limits-show {
-  visibility: visible; 
   transition: 1s;
+  visibility: visible; 
 }
 
 
